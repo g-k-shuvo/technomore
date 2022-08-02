@@ -17,6 +17,7 @@
     "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^4.16.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-image": "^2.17.0",
     "gatsby-plugin-mdx": "^3.16.1",
     "gatsby-plugin-sharp": "^4.16.1",
     "gatsby-plugin-styled-components": "^5.16.0",
@@ -25,6 +26,7 @@
     "gatsby-transformer-sharp": "^4.16.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {

@@ -6,9 +6,18 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "Technomore - Tech Blog",
+    description: "A tech blog built with Gatsby and MDX",
+    url: "https://g-k-shuvo.github.io",
+    image: "office.jpg",
+    twitterUsername: "@gkshuvo",
+    author: "Golam Kibria",
+  },
   plugins: [
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
